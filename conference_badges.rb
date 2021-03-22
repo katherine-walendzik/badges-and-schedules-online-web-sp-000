@@ -1,5 +1,5 @@
 def badge_maker(array)
-  badges = array.collect{|name| puts "Hello, my name is #{name}."}
+  array.each{|name| puts "Hello, my name is #{name}."}
 end
 
 def batch_badge_creator(array)
