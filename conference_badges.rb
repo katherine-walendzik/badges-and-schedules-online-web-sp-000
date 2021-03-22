@@ -1,5 +1,5 @@
 def badge_maker(array)
-  array.each do{|name| puts "Hello, my name is #{name}."}
+  array.each{|name| puts "Hello, my name is #{name}."}
 end
 
 def batch_badge_creator(array)
@@ -13,3 +13,5 @@ end
 def printer
   
 end
+
+#brothers.each{|brother| puts "Stop hitting yourself #{brother}!"}
