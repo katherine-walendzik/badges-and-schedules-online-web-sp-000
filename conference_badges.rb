@@ -5,9 +5,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  badges = []
+  binding.pry
   array.each{|name| badges << puts "Hello, my name is #{name}."}
-  badges
 end
 
 def assign_rooms(array)
