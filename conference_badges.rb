@@ -5,7 +5,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  binding.pry
   array.each{|name| puts "Hello, my name is #{name}."}
 end
 
