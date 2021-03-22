@@ -22,5 +22,3 @@ def printer(attendees)
   rooms = assign_rooms(attendees)
   rooms.each{|room| puts room}
 end
-
-#brothers.each{|brother| puts "Stop hitting yourself #{brother}!"}
